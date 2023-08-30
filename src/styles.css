@@ -1,0 +1,25 @@
+.monopoly-board {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    width: 800px;
+    height: 800px;
+}
+
+.property {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.corner {
+    background-color: #ccc;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
